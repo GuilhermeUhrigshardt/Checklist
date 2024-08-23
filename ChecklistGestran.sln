@@ -7,15 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B73A1F4-AC8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistGestran.API", "src\ChecklistGestran.API\ChecklistGestran.API.csproj", "{41BBF0A2-FAE8-4886-9C9C-13A702487199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistGestran.Entities", "src\ChecklistGestran.Entities\ChecklistGestran.Entities.csproj", "{B48F5052-14BD-4450-9C7A-010022717B64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistGestran.Domain", "src\ChecklistGestran.Entities\ChecklistGestran.Domain.csproj", "{B48F5052-14BD-4450-9C7A-010022717B64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{41BBF0A2-FAE8-4886-9C9C-13A702487199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,6 +23,9 @@ Global
 		{B48F5052-14BD-4450-9C7A-010022717B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B48F5052-14BD-4450-9C7A-010022717B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B48F5052-14BD-4450-9C7A-010022717B64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{41BBF0A2-FAE8-4886-9C9C-13A702487199} = {2B73A1F4-AC88-47BD-A23B-F1C8E42C7038}
