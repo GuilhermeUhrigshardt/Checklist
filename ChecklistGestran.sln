@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistGestran.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistGestran.Application", "src\ChecklistGestran.Application\ChecklistGestran.Application.csproj", "{3F11597C-64EC-478C-AFFA-99208A46E156}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistGestran.Repository", "src\ChecklistGestran.Repository\ChecklistGestran.Repository.csproj", "{42944010-3319-4992-B5A2-7D482327AB88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{3F11597C-64EC-478C-AFFA-99208A46E156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F11597C-64EC-478C-AFFA-99208A46E156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F11597C-64EC-478C-AFFA-99208A46E156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42944010-3319-4992-B5A2-7D482327AB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42944010-3319-4992-B5A2-7D482327AB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42944010-3319-4992-B5A2-7D482327AB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42944010-3319-4992-B5A2-7D482327AB88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +43,6 @@ Global
 		{41BBF0A2-FAE8-4886-9C9C-13A702487199} = {2B73A1F4-AC88-47BD-A23B-F1C8E42C7038}
 		{B48F5052-14BD-4450-9C7A-010022717B64} = {2B73A1F4-AC88-47BD-A23B-F1C8E42C7038}
 		{3F11597C-64EC-478C-AFFA-99208A46E156} = {2B73A1F4-AC88-47BD-A23B-F1C8E42C7038}
+		{42944010-3319-4992-B5A2-7D482327AB88} = {2B73A1F4-AC88-47BD-A23B-F1C8E42C7038}
 	EndGlobalSection
 EndGlobal
