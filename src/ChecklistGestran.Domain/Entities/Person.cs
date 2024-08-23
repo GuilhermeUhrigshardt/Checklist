@@ -1,6 +1,6 @@
 using System;
 
-namespace ChecklistGestran.Domain;
+namespace ChecklistGestran.Entities.Domain;
 
 public abstract class Person
 {

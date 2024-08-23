@@ -1,8 +1,8 @@
 using System;
 
-namespace ChecklistGestran.Domain;
+namespace ChecklistGestran.Entities.Domain;
 
-public class Executor : Person
+public class Supervisor : Person
 {
     public DateTime Start { get; set; }
     public DateTime End { get; set; }
