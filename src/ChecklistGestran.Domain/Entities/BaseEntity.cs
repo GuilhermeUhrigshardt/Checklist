@@ -8,6 +8,4 @@ public abstract class BaseEntity
     protected DateTime? UpdatedDate { get; set; }
     protected bool Active { get; set; } = true;
     protected int Version { get; set; } = 1;
-    
 }
- 
