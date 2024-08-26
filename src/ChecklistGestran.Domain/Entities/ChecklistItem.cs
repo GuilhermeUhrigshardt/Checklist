@@ -1,8 +1,8 @@
 using System;
 
-namespace ChecklistGestran.Entities.Domain;
+namespace ChecklistGestran.Domain.Entities;
 
-public class ChecklistItem
+public class ChecklistItem : BaseEntity
 {
     public bool Checked { get; set; }
 }

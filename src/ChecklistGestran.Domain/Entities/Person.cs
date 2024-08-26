@@ -1,8 +1,8 @@
 using System;
 
-namespace ChecklistGestran.Entities.Domain;
+namespace ChecklistGestran.Domain.Entities;
 
-public abstract class Person
+public abstract class Person : BaseEntity
 {
     public Guid Id { get; set; }
     public string? FirstName { get; set; }

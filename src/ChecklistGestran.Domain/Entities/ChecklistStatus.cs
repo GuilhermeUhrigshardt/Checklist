@@ -1,8 +1,8 @@
 using System;
 
-namespace ChecklistGestran.Entities.Domain;
+namespace ChecklistGestran.Domain.Entities;
 
-public class ChecklistStatus
+public class ChecklistStatus : BaseEntity
 {
     public Guid Id { get; set; }
 }

@@ -1,6 +1,6 @@
 using System;
 
-namespace ChecklistGestran.Entities.Domain;
+namespace ChecklistGestran.Domain.Entities;
 
 public class Supervisor : Person
 {

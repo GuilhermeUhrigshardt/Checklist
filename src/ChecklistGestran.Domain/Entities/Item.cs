@@ -1,8 +1,8 @@
 using System;
 
-namespace ChecklistGestran.Entities.Domain;
+namespace ChecklistGestran.Domain.Entities;
 
-public class Item
+public class Item : BaseEntity
 {
     public Guid Id { get; set; }
     public string? Name { get; set; }
